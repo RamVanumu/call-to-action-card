@@ -3,23 +3,19 @@
   <head>
     <title>Call to action card</title>
     <style>
-    
-      #main{
-        width: 800px;
-        height: 600px;
+      #main {
+        width: 650px;
+        height: 500px;
         border: 1px solid gray;
         border-radius: 2px;
         margin: auto;
-      }
-
-      #content{
-        width: 650px;
-        height: 450px;
-        margin: 75px;
+        padding: 50px;
         font-family: sans-serif;
       }
 
       h1 {
+        color: rgba(0,0,0,0.6);
+        margin: 0;
         font-size: 60px;
         font-weight: 300;
       }
@@ -28,31 +24,57 @@
         height: 0px;
         width: 100px;
         border: 2px solid black;
+        margin: 30px 0px 30px 0px;
       }
 
       h3 {
+        color: rgba(0,0,0,0.5);
+        margin: 0;
         font-size: 30px;
         font-weight: 100;
         line-height: 40px;
         letter-spacing: 1px;
       }
+
+      #button {
+        width: 650px;
+        height: 60px;
+        background-color: #4184e1;
+        border-radius: 50px;
+        text-align: center;
+      }
+
+      h2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 100;
+        padding: 10px;
+      }
+
+      p {
+        color: rgba(0,0,0,0.4);
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 100;
+        word-spacing: 5px;
+      }
     </style>
   </head>
   <body>
     <div id="main">
-      <div id="content">
-        <h1>Build your first chatbot in 10 minutes!</h1>
-        <div id="line"></div>
-        <h3>
-          Have a bot answering questions from customers on your website within
-          10 minutes of signing up for ChatBot.
-        </h3>
-        <div id="button"></div>
-        <p>
-          By clicking try now you create an account and agree to our Terms and
-          Conditions and Privacy Policy
-        </p>
+      <h1>Build your first chatbot in 10 minutes!</h1>
+      <div id="line"></div>
+      <h3>
+        Have a bot answering questions from customers on your website within 10
+        minutes of signing up for ChatBot.
+      </h3>
+      <div id="button">
+        <h2>TRY NOW →</h2>
       </div>
+      <p>
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and Privacy Policy.
+      </p>
     </div>
   </body>
 </html>
